@@ -33,13 +33,14 @@ This project implements a scalable and efficient data pipeline to process and an
 
 ## Project Structure
 
-project/
+D2K_Assignment/
 ├── scripts/
 │   ├── data_extraction.py    # Handles data downloading
 │   ├── data_processing.py    # Cleans and transforms data
 │   ├── data_load.py          # Loads data into SQLite database
 ├── data/                     # Directory for raw and processed data
 ├── sql/                      # Directory for SQLite database
+    ├── nyc_taxi_data.db      # sqlite3 database file                   
 ├── visualizations/           # Directory for generated charts
 ├── Analysis.ipynb            # Notebook for analysis and visualization
 ├── requirements.txt          # Python dependencies
