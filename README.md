@@ -35,23 +35,38 @@ This project implements a scalable and efficient data pipeline to process and an
 
 D2K_Assignment/
 ├── scripts/
-│   ├── data_extraction.py    # Handles data downloading
-│   ├── data_processing.py    # Cleans and transforms data
-│   ├── data_load.py          # Loads data into SQLite database
-├── data/                     # Directory for raw and processed data
-├── sql/                      # Directory for SQLite database
-    ├── nyc_taxi_data.db      # sqlite3 database file                   
-├── visualizations/           # Directory for generated charts
-├── Analysis.ipynb            # Notebook for analysis and visualization
-├── requirements.txt          # Python dependencies
-└── README.md                 # Documentation
+│   ├── data_extraction.py    # Handles data downloading  
+
+│   ├── data_processing.py    # Cleans and transforms data  
+
+│   ├── data_load.py          # Loads data into SQLite database  
+
+├── data/                     # Directory for raw and processed data  
+
+├── sql/                      # Directory for SQLite database  
+
+    ├── nyc_taxi_data.db      # sqlite3 database file          
+
+├── visualizations/           # Directory for generated charts  
+
+├── Analysis.ipynb            # Notebook for analysis and visualization  
+
+├── requirements.txt          # Python dependencies  
+
+└── README.md                 # Documentation  
+
 
 ## Running the Project
 
 Using the Jupyter Notebook
 The entire data pipeline, from extraction to analysis, is executed in the Analysis.ipynb Jupyter
 After setup the the project:
-1.open Analysis.ipynb
-2.select appropreat kernel
-3.execute all run all cell command in notebook
+1.open Analysis.ipynb  
+
+2.select appropreat kernel  
+
+3.execute all run all cell command in notebook  
+
+[Analysis.ipynb](https://github.com/deepakdubey9887/D2K_Assignment/blob/main/Analysis.ipynb)
+
 
